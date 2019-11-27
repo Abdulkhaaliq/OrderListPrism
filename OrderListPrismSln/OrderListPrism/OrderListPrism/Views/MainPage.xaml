@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OrderListPrism.Views.MainPage"
+             Title="{Binding Title}">
+   
+
+    <ScrollView>
+
+        <FlexLayout  Direction="Column"
+                AlignItems="Center"
+                JustifyContent="SpaceAround">
+            <StackLayout>
+                <Frame BackgroundColor="LightBlue">
+                    <ImageButton Source="hoodie0.jpg"
+                WidthRequest="240"
+                HeightRequest="180"
+                         Command="{Binding ImageCommand}"/>
+                </Frame>
+            </StackLayout>
+
+            <StackLayout>
+                <Frame BackgroundColor="LightBlue">
+                    <ImageButton Source="hoodie1.jpg"
+                WidthRequest="240"
+                HeightRequest="180"
+                             Command="{Binding ImageCommand}"/>
+                </Frame>
+            </StackLayout>
+
+            <StackLayout>
+                <Frame BackgroundColor="LightBlue">
+                    <ImageButton Source="hoodie2.jpg"
+                WidthRequest="240"
+                HeightRequest="180" 
+                          Command="{Binding ImageCommand}"/>
+                </Frame>
+                <StackLayout>
+                    <Button x:Name="Orders" Text="View Your Orders" Command="{Binding ViewOrdersCommand}"/>
+                </StackLayout>
+
+            </StackLayout>
+
+
+        </FlexLayout>
+    </ScrollView>
+</ContentPage>

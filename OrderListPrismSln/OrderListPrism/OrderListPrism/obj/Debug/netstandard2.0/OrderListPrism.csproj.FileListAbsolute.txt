@@ -1,0 +1,12 @@
+C:\Xamarin\OrderListPrism\OrderListPrismSln\OrderListPrism\OrderListPrism\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Xamarin\OrderListPrism\OrderListPrismSln\OrderListPrism\OrderListPrism\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Xamarin\OrderListPrism\OrderListPrismSln\OrderListPrism\OrderListPrism\obj\Debug\netstandard2.0\Views\Page1.xaml.g.cs
+C:\Xamarin\OrderListPrism\OrderListPrismSln\OrderListPrism\OrderListPrism\obj\Debug\netstandard2.0\Views\Page2.xaml.g.cs
+C:\Xamarin\OrderListPrism\OrderListPrismSln\OrderListPrism\OrderListPrism\obj\Debug\netstandard2.0\OrderListPrism.AssemblyInfoInputs.cache
+C:\Xamarin\OrderListPrism\OrderListPrismSln\OrderListPrism\OrderListPrism\obj\Debug\netstandard2.0\OrderListPrism.AssemblyInfo.cs
+C:\Xamarin\OrderListPrism\OrderListPrismSln\OrderListPrism\OrderListPrism\obj\Debug\netstandard2.0\OrderListPrism.dll
+C:\Xamarin\OrderListPrism\OrderListPrismSln\OrderListPrism\OrderListPrism\obj\Debug\netstandard2.0\OrderListPrism.pdb
+C:\Xamarin\OrderListPrism\OrderListPrismSln\OrderListPrism\OrderListPrism\bin\Debug\netstandard2.0\OrderListPrism.deps.json
+C:\Xamarin\OrderListPrism\OrderListPrismSln\OrderListPrism\OrderListPrism\bin\Debug\netstandard2.0\OrderListPrism.dll
+C:\Xamarin\OrderListPrism\OrderListPrismSln\OrderListPrism\OrderListPrism\bin\Debug\netstandard2.0\OrderListPrism.pdb
+C:\Xamarin\OrderListPrism\OrderListPrismSln\OrderListPrism\OrderListPrism\obj\Debug\netstandard2.0\XamlC.stamp

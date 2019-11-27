@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="OrderListPrism.Views.Page2">
+
+    <ContentPage.Content>
+        <ListView  x:Name="listView" ItemsSource="{Binding Orders}" HasUnevenRows="True" Margin="5">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+
+                        <ViewCell.ContextActions>
+                            <MenuItem Command="{Binding MappingCoomand}"
+                                      CommandParameter="{Binding .}"
+                      Text="Map" />
+                            <MenuItem Command="{Binding Ondelete}"
+                                      CommandParameter="{Binding .}"
+                      Text="Delete"  IsDestructive="True" />
+                        </ViewCell.ContextActions>
+
+                        <Grid ColumnSpacing="0" RowSpacing="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="2*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <Label Text="Name" FontAttributes="Bold" Grid.Row="0" Grid.Column="0" TextColor="WhiteSmoke"/>
+                            <Label Text="Gender" FontAttributes="Bold" Grid.Row="0" Grid.Column="1" TextColor="WhiteSmoke"/>
+                            <Label Text="Size" FontAttributes="Bold" Grid.Row="0" Grid.Column="2" TextColor="WhiteSmoke"/>
+                            <Label Text="Color" FontAttributes="Bold" Grid.Row="0" Grid.Column="3" TextColor="WhiteSmoke"/>
+                            <Label Text="Order Date" FontAttributes="Bold" Grid.Row="0" Grid.Column="4" TextColor="WhiteSmoke"/>
+                            <Label Text="Shipping Address" FontAttributes="Bold" Grid.Row="0" Grid.Column="5" TextColor="WhiteSmoke"/>
+
+                            <Label Text="{Binding Name}"  Grid.Row="1" Grid.Column="0" TextColor="Wheat"/>
+
+                            <Label Text="{Binding Gender}" Grid.Row="1" Grid.Column="1" TextColor="Wheat"/>
+
+                            <Label Text="{Binding Size}"  Grid.Row="1" Grid.Column="2" TextColor="Wheat"/>
+
+                            <Label Text="{Binding Color}"  Grid.Row="1" Grid.Column="3" TextColor="Wheat"/>
+
+                            <Label Text="{Binding DateOrdered}"  Grid.Row="1" Grid.Column="4" TextColor="Wheat"/>
+
+                            <Label Text="{Binding Address}"  Grid.Row="1" Grid.Column="5" TextColor="Wheat"/>
+
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>
