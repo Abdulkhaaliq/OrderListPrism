@@ -10,3 +10,4 @@ C:\Xamarin\OrderListPrism\OrderListPrismSln\OrderListPrism\OrderListPrism\bin\De
 C:\Xamarin\OrderListPrism\OrderListPrismSln\OrderListPrism\OrderListPrism\bin\Debug\netstandard2.0\OrderListPrism.dll
 C:\Xamarin\OrderListPrism\OrderListPrismSln\OrderListPrism\OrderListPrism\bin\Debug\netstandard2.0\OrderListPrism.pdb
 C:\Xamarin\OrderListPrism\OrderListPrismSln\OrderListPrism\OrderListPrism\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Xamarin\OrderListPrism\OrderListPrismSln\OrderListPrism\OrderListPrism\obj\Debug\netstandard2.0\OrderListPrism.csprojAssemblyReference.cache
